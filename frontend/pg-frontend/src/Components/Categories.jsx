@@ -9,9 +9,7 @@ const Categories = () => {
         <div className="categories">
             <h1>Explore Top Categories</h1>
             <p>
-                Explore our wide range of vacation rentals that cater to all types of
-                travelers. Immerse yourself in the local culture, enjoy the comforts of
-                home, and create unforgettable memories in your dream destination.
+                Discover the perfect place to stay with Room Maven. Whether you're traveling for work or leisure, find your ideal accommodation and experience the comfort and convenience of home, wherever you go.
             </p>
 
             <div className="categories_list">

@@ -1,10 +1,12 @@
-body{
+body {
     overflow-x: hidden;
     font-family: sans-serif;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
+
 .slide {
     width: 100vw;
     height: calc(100vh - 83.2px);
@@ -15,12 +17,43 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-    h1 {
-        font-family: sans-serif;
-        padding: 40px 20px;
-        font-size: 3.2rem;
-        text-align: center;
-        color: white;
+.slide h1 {
+    font-family: 'Arial', sans-serif;
+    padding: 40px 20px;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Make text responsive */
+@media (max-width: 1200px) {
+    .slide h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .slide h1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slide h1 {
+        font-size: 2rem;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slide h1 {
+        font-size: 1.6rem;
+        padding: 20px 5px;
     }
 }

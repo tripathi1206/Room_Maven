@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="footer" style={{background:"#333333",padding:"100px 80px"}}>
             <div style={styles.logoContainer} className="footer_left">
-                <Link to='/' style={styles.link}> <FaHome style={styles.logo} /> <span style={styles.logoText}>PG</span><span style={styles.logoText2}>Finder</span></Link>
+                <Link to='/' style={styles.link}> <FaHome style={styles.logo} /> <span style={styles.logoText}>Room</span><span style={styles.logoText2}>Maven</span></Link>
             </div>
 
             <div className="footer_center" >
@@ -29,11 +29,11 @@ const Footer = () => {
                 </div>
                 <div className="footer_right_info">
                     <MdEmail />
-                    <p>PGFinder@support.com</p>
+                    <p>Room_Maven@support.com</p>
                 </div>
                 <div className="footer_right_info">
                 <MdPayment/>
-                <p>Payement</p>
+                <p>Payment</p>
                 </div>
             </div>
         </div>

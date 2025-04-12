@@ -5,9 +5,10 @@ const Slider = () => {
   return (
     <div className="slide">
       <h1>
-        Welcome Home! Anywhere you roam <br /> Stay in the moment. Make your
-        memories
+          Find Your Perfect Space, Wherever You Are. <br />
+          Live Comfortably, Make Every Stay Count.
       </h1>
+
     </div>
   );
 };
