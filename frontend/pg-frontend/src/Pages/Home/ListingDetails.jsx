@@ -182,11 +182,11 @@ const ListingDetails = () => {
                             <DateRange ranges={dateRange} onChange={handleSelect} />
                             {dayCount > 1 ? (
                                 <h2>
-                                    ₹{listing.price} x {dayCount} Months
+                                    ₹{listing.price} x {dayCount} INR
                                 </h2>
                             ) : (
                                 <h2>
-                                    ₹{listing.price} x {dayCount} Months
+                                    ₹{listing.price} x {dayCount} INR
                                 </h2>
                             )}
 
